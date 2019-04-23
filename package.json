@@ -10,7 +10,8 @@
     ]
   },
   "scripts": {
-    "create": "webpack"
+    "create": "webpack",
+    "start":"webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",

@@ -21,3 +21,4 @@ module.exports = {
   ],
   mode: "development"
 }
+
