@@ -10,7 +10,7 @@ function SelectLanguage (props) {
         return (
           <li
             style={lang === props.selectedLanguage ? {color: '#d0021b'} : null}
-            onClick={props.onSelect.bind(null, lang)}
+            onClick={props.onSelect.bind(this, lang)}
             key={lang}>
               {lang}
           </li>
