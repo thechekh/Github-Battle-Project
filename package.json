@@ -11,7 +11,9 @@
   },
   "scripts": {
     "create": "webpack",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "build":"NODE_ENV='production' webpack",
+    "build-for-windows":"SET NODE_ENV='production'&& webpack"
   },
   "author": "",
   "license": "ISC",
